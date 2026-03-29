@@ -1,7 +1,7 @@
 dA = 2; dB = 2;
 theta = 0.01;
 theta_2=0.004;
-gamma = (0.5:0.05:0.99);
+gamma = (0.5:0.01:0.99);
 % 示例：随机Hermitian M（你用已知的AB系统矩阵替换即可）
 n = dA*dB;
 m = length(gamma);
